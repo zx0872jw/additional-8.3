@@ -1,6 +1,6 @@
 # additional-8.3
 # write def encrypt(user_input, encryption_library, decryption_library)
-
+def encrypt(user_input, encryption_library, decryption_library)
     new_input = user_input.translate(encryption_library)
     print(new_input)
     print(new_input.translate(decryption_library))
